@@ -1,0 +1,21 @@
+{
+  "name": "phone-hider",
+  "version": "1.0.0",
+  "description": "Dear Mom, Please stop giving out my phone number",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": ">13.0.0"
+  }
+}
