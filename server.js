@@ -66,7 +66,6 @@ app.get('/webhooks/message-inbound', (req,res) => {
             }
             console.log(response.messages[0])
         }
-    
     );
     res.status(200).end();
 })
